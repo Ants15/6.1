@@ -22,5 +22,8 @@ function validateInputs(){
 function displayimage(){
     let img= document.getElementById("sprscrt")
     img.style.display = "inline";
-    document.getElementById("supersecret").addEventListener("click", displayimage)
+    document.getElementById("supersecret")
+    if("click"){
+        displayimage
+    }
 }
