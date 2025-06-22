@@ -8,7 +8,7 @@ function validateInputs(){
     output.innerHTML= "";
     img.style.display= "none";
     if(fullName > 20){
-        output.innerHTML= "Your full name is too long (moore than 20 characters!).";
+        output.innerHTML= `<p>"Your full name is too long (more than 20 characters!)."</p>`;
         return;
     }
     if(zip.length!==  5 || isNaN(zip)){
