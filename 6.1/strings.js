@@ -7,7 +7,7 @@ function validateInputs(){
     let img= document.getElementById("secretimg");
     output.innerHTML= "";
     img.style.display= "none";
-    if(fullName > 20){
+    if(fullName > 20 || isNaN(fullName)){
         output.innerHTML= `<p>"Your full name is too long (more than 20 characters!)."</p>`;
         return;
     }
