@@ -12,7 +12,7 @@ function validateInputs(){
         return;
     }
     if(zip.length!==  5 || isNaN(zip)){
-        output.innerHTML= "Zip code must be exactly 5 numeric digits.";
+        output.innerHTML= `<p>"Zip code must be exactly 5 numeric digits."</p>`;
         return;
     }
     output.innerHTML =`<h2>Access Granted!</h2><p>Welcome, ${fullName} from ${zip}.<br>Here is your secret message:</p><p><strong> "This is my dog Rufus and he likes glasses! For more fun scroll to bottom! _/¯(ツ)_/¯" </strong></p>`;
